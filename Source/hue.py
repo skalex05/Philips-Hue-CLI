@@ -287,15 +287,15 @@ def main():
                     #turn the light on if it was off beforehand
                     light.state(on = True)    
                 light.state(bri = args.bri)
-                print(f"Set {name}\t-\t{id} brightness to {args.bri}")
+                print(f"Set {name} - {id} brightness to {args.bri}")
             #turn the light off if the -off keyword was used or the user set -bri to 0
             if args.off or args.bri == 0:
                 light.state(on = False)
-                print(f"Turned Off {name}\t-\t{id}")
+                print(f"Turned Off {name} - {id}")
             #just turn the light on
             if args.on:
                 light.state(on = True)
-                print(f"Turned On {name}\t-\t{id}")
+                print(f"Turned On {name} - {id}")
 
             #they are three seperate if statements so that they can be used together and have been arranged in a hierarchical order
 
