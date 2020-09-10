@@ -29,6 +29,7 @@ __Command Setup:__
   Finally, you'll be asked to turn on all of your hue lights. This is so that they can be turned off one by one and you can identify which is which. Once you've gone through all of your lights, you'll have successfully set up a bridge!
 
 __Commands:__
+
   __Syntax for understanding the commands:__
   Below are the lists of commands. These will contain how to specify the command (starts with two hyphens) and a list of options for the command:
   
